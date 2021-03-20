@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="MyFirstFX.SuccessController">
+    <Button layoutX="261.0" layoutY="310.0" mnemonicParsing="false" onAction="#quitApp" prefHeight="49.0"
+            prefWidth="92.0" style="-fx-background-color: #4BB543;" text="Close"/>
+    <Label layoutX="132.0" layoutY="14.0" prefHeight="103.0" prefWidth="337.0" text="  Success!" wrapText="true">
+        <font>
+            <Font name="Microsoft YaHei Light" size="66.0"/>
+        </font>
+    </Label>
+    <Label layoutX="38.0" layoutY="116.0" prefHeight="169.0" prefWidth="525.0"
+           text="You have now successfully logged in to your account, we hope you have a nice experience using our application!"
+           wrapText="true">
+        <font>
+            <Font name="Microsoft YaHei Light" size="20.0"/>
+        </font>
+    </Label>
+</AnchorPane>
